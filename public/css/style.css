@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding:0;   
+}
+body{
+    font-size: 100%;
+    font-family: Georgia,'Times New Roman',Times,serif;
+    background-color: #333;
+    background: url('../images/style/background.png') center repeat-y #333;
+}
+#page{
+    width:940px;    
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+#main{
+    width:900px;
+    padding:20px;
+    float:left;
+   
+    border-top:#fff;
+    background-color: #fff;
+    
+}
+h2,h3,h4,h5{
+    font-weight: normal;
+    margin: .5em 0;
+}
+header{
+    height:80px;
+    background-color:#99ccff;
+    border-bottom: 3px solid #0066cc;
+
+}
+header h1{
+    font-size:2em;
+    padding: 20px 20px 0 20px;
+    float: left;
+    font-weight: normal;
+    letter-spacing: .1em;
+}
+header h1 a{
+    text-decoration: none;
+    color:black;
+}
+header h1 a:hover{
+    color:#555;
+}
+header nav{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 80%;
+    display: block;
+    float:right;
+    padding: 20px;
+    padding-top: 40px;
+}
+#admin_nav{
+    background-color: #ccc;
+}
+#admin_nav nav{
+    padding: 5px 20px;
+    border-bottom: 1px solid #333;
+}
+#admin_nav nav a{
+   
+}
+.info_msg{
+    border:1px solid #66cc00;
+    background-color:#ccffcc;
+    padding:5px;
+}
+.error_msg{
+    border:1px solid #cc0033;
+    background-color:#ffcccc;
+    padding:5px;
+}
+
+.product-box{
+    width:150px;
+    height:150px;
+    border:1px solid #333;
+    float: left;
+    margin:20px;
+    padding:10px;
+    text-align: center;
+}
+
+.product-box-container{
+    float:left;
+    width:100%;
+}
+.total{
+    margin-top: 20px;
+}
+.cart-item{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0px;
+    padding: 5px;
+}
+p.back{
+    margin-top: 20px;
+}
+input[type="submit"]{
+    margin-top: 20px;
+}
+label{
+    display:block;
+    margin-top:10px;
+}
+textarea{
+    width:400px;
+    min-height:150px;
+}
+table{
+    border:1px solid #333;
+    border-collapse: collapse;
+    width: 75%;
+    margin:20px 0;
+}
+th{
+    border:1px solid #333;
+    background-color:#dedede;
+}
+td{
+    border:1px solid #ccc;
+    padding:10px;
+}
+ol,ul{
+    padding-left:20px;
+}
+.cust-address{
+    margin: 20px;
+    border-bottom: 1px solid #555;
+}
